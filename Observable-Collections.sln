@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{9E940837-9EE8-43DD-9309-0E145AA0EF6C}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.config = .nuget\NuGet.config
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodeAnalysis", "CodeAnalysis", "{DF0864B1-9764-4498-BE93-33760617A9D3}"
+	ProjectSection(SolutionItems) = preProject
+		CodeAnalysis\Solution.ruleset = CodeAnalysis\Solution.ruleset
+		CodeAnalysis\Solution.Tests.ruleset = CodeAnalysis\Solution.Tests.ruleset
+		CodeAnalysis\SolutionDictionary.xml = CodeAnalysis\SolutionDictionary.xml
+		CodeAnalysis\SolutionSuppressions.cs = CodeAnalysis\SolutionSuppressions.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Properties", "Properties", "{DF343716-A381-49C1-81AD-8A1941AB6346}"
+	ProjectSection(SolutionItems) = preProject
+		Properties\Solution-AssemblyInfo.cs = Properties\Solution-AssemblyInfo.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project", "Project\Project.csproj", "{DBD65ADC-A61B-4A90-BF34-CB8371BB6A41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTests", "IntegrationTests\IntegrationTests.csproj", "{77897047-BA24-451C-AC82-0BA637C3CF18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShimTests", "ShimTests\ShimTests.csproj", "{69E502D9-6027-4604-8B57-DC76438E3F18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{7B1592E4-3C4C-4C80-A1C2-69F6B1188CB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{B6DD4E2A-2CB2-416C-B707-E07C296B1E4F}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.md = ReadMe.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBD65ADC-A61B-4A90-BF34-CB8371BB6A41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBD65ADC-A61B-4A90-BF34-CB8371BB6A41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBD65ADC-A61B-4A90-BF34-CB8371BB6A41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBD65ADC-A61B-4A90-BF34-CB8371BB6A41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77897047-BA24-451C-AC82-0BA637C3CF18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77897047-BA24-451C-AC82-0BA637C3CF18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77897047-BA24-451C-AC82-0BA637C3CF18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77897047-BA24-451C-AC82-0BA637C3CF18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69E502D9-6027-4604-8B57-DC76438E3F18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69E502D9-6027-4604-8B57-DC76438E3F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69E502D9-6027-4604-8B57-DC76438E3F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69E502D9-6027-4604-8B57-DC76438E3F18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B1592E4-3C4C-4C80-A1C2-69F6B1188CB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B1592E4-3C4C-4C80-A1C2-69F6B1188CB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B1592E4-3C4C-4C80-A1C2-69F6B1188CB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B1592E4-3C4C-4C80-A1C2-69F6B1188CB4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
